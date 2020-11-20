@@ -1,0 +1,48 @@
+/* -----------TAG SELECTOR---------- */
+
+body{
+    background-color: rgb(224, 218, 218);
+}
+h1{
+    color: aqua;
+}
+
+img:hover{
+    background-color: gold;
+}
+
+/* -----------CLASS SELECTOR---------- */
+
+/* class seletor gives us flexibility and allows more specific updation */
+.bacon{
+    background-color: aqua;
+}
+.brocoli{
+    background-color: rgb(243, 107, 43);
+}
+
+/* -----------CLASS SELECTOR---------- */
+
+/* id selector is also used for specific updation but with less features than class */
+
+#heading{ /* yaha se id update hogi , class me . se start aur id # se start ...to update...angela  rocks☻*/
+    color: blueviolet;
+}
+
+/* its nice to look your body code in devtool in chrome because it will help u in making a healthy debug habit...just like u forgot here that at fisrt i updated h1 but when i use id..then id override the tag selector...so its nice to look up your code in chrome inspect body 
+
+---------------
+class can be used of same name but not in id
+class is used when things belongs to same kind of group
+but id is used when something used which is not in bulk
+like main heading..only one heading is there
+so id used for less and class for bulk
+
+----------------
+
+many css is applied at default by brower
+so u can override them by using selector because they have highest priority level
+
+--------------------
+we also have psuedo classes which are invoked by adding :"psuedo class type" along with tag selector name
+*/
